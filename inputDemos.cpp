@@ -10,7 +10,7 @@ int main()
 
 	while (numTestCases--)
 	{
-		//处理每个case
+		//澶勭悊姣忎釜case
 		int N;
 		cin>>N;
 
@@ -21,7 +21,7 @@ int main()
 			imageB[i].resize(N);
 		}
 
-		//输入图像A
+		//杈撳叆鍥惧儚A
 		for (int i = 0;i < N;i++)
 		{
 			for(int j = 0;j < N;j++)
@@ -29,7 +29,7 @@ int main()
 				cin>>imageA[i][j];
 			}
 		}
-		//输入图像B
+		//杈撳叆鍥惧儚B
 		for (int i = 0;i < N;i++)
 		{
 			for(int j = 0;j < N;j++)
@@ -38,7 +38,7 @@ int main()
 			}
 		}
 		
-		//测试输入
+		//娴嬭瘯杈撳叆
 		cout<<endl<<"output:"<<endl;
 		for (int i = 0;i < N;i++)
 		{
